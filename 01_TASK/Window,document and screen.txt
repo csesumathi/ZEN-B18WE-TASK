@@ -1,0 +1,11 @@
+Window is the global object in a browser, also can be treated as the root of the document object model. You can access it as window
+
+window.screen or just screen is a small information object about physical screen dimensions.
+
+window.document or just document is the main object of the potentially visible (or better yet: rendered) document object model/DOM.
+	The document object is your html, aspx, php, or other document that will be loaded into the browser. 
+	The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc. 
+	if you want to access a property for the window it is window.property, 
+	if it is document it is window.document.property which is also available in short as document.property.
+
+Since window is the global object you can reference any properties of it with just the property name - so you do not have to write down window. - it will be figured out by the runtime.
