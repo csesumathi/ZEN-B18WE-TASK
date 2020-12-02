@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+
+}
+header {
+    width:100%;
+    text-align: center;
+    background-color: brown;
+    color:blanchedalmond;
+}
+body {
+    background-color: rgb(255,255,221);
+}
+u {
+    color:blue;
+}
+span {
+    color:blue;
+    font-size:12px;
+}
