@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>USER REGISTRATION FORM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <form method="GET" name="userForm" id="userform" >
+            <div class="error" id="error_msg">
+            <table name="userformtable" class="userform">
+                
+                <tr name="fullname_row" id="fullname_row">
+                    <td>
+                        <label>FullName</label>
+                    </td>
+                    <td>
+                        <div class="fullname_column" class ="input-column">
+                           
+                            <i class="fa fa-user" style="font-size:24px"></i>
+                            <!-- <i class="fa fa-address-book"></i> -->
+                        <input type="text"   placeholder="fullname" id="fullname-txt">
+                    
+                        </div>
+                    </td>
+                </tr>
+                <tr name="AddressLine1_row" id="AddressLine1_row">
+                    <td>
+                        <label>Address Line1</label>
+                    </td>
+                    <td>
+                        <div class="AddressLine1_column"class ="input-column">
+                                                       
+                            <i class="fa fa-address-book"></i>
+                        <input type="text"  placeholder="AddressLine1" id="AddressLine1-txt" maxlength="40">
+                        </div>
+                    </td>
+                </tr>
+                <tr name="AddressLine2_row" id="AddressLine2_row">
+                    <td>
+                        <label>Address Line2</label>
+                    </td>
+                    <td>
+                        <div class="AddressLine2_column"class ="input-column">
+                                                       
+                            <i class="fa fa-address-book"></i>
+                        <input type="text"   placeholder="Addressline2" id="AddressLine2-txt" maxlength="40" >
+                        </div>
+                    </td>
+                </tr>
+                <tr name="City_row" id="City_row">
+                    <td>
+                        <label>City</label>
+                    </td>
+                    <td>
+                        <div class="City_column"class ="input-column">
+                                                       
+                            <i class="fa fa-building-o"></i>
+                        <input type="text" placeholder="City" id="City-txt" >
+                        </div>
+                    </td>
+                </tr>
+                <tr name="State_row" id="State_row">
+                    <td>
+                        <label>State/Province/Region</label>
+                    </td>
+                    <td>
+                        <div class="State_column"class ="input-column">
+                                                       
+                            <i class="fa fa-map-marker"></i>
+                        <input type="text"   placeholder="State/Province/Region" id="State-txt">
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr name="Postal_row" id="Postal_row">
+                    <td>
+                        <label>Postal Code/ZIP</label>
+                    </td>
+                    <td>
+                        <div class="Postal_column"class ="input-column">
+                        <i class="fa fa-envelope-open-o"></i>
+                        <input type="text" placeholder="Postal Code/ZIP" id="PostalCode-txt" min="6">
+                        </div>
+                    </td>
+                </tr>
+                <tr name="Country_row" id="Country_row">
+                    <td>
+                        <label>Country</label>
+                    </td>
+                    <td>
+                        <div class="Country_column"class ="input-column">
+                        <i class="fa fa-map"></i>
+                        <select name="country"  id="Country-txt">
+                            <option value="America">America</option>
+                            <option value="India">India</option>
+                            <option value="Afghanistan">Afghanistan</option>
+                        </div>
+                    </td>
+                </tr>
+                <tr name="Email_row" id="Email_row">
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td>
+                        <div class="Email_column"class ="input-column">
+                        <i class="fa fa-user"></i>
+                        <input type="text"   placeholder="Email" id="Email-txt"   >
+                        </div>
+                    </td>
+                </tr>
+                <tr name="PhoneNumber_row" id="PhoneNumber_row">
+                    <td>
+                        <label>Phone Number</label>
+                    </td>
+                    <td>
+                        <div class="PhoneNumber_column"class ="input-column">
+                        <i class="fa fa-user"></i>
+                        <input type="text"   placeholder="PhoneNumber" id="PhoneNumber-txt" max="10" required>
+                        </div>
+                    </td>
+                </tr>
+                
+                
+            </table>
+            <div class="button">
+                <button type="submit" value="Submit" onclick="validate()"> Submit </button>
+            </div>
+            
+
+            </div>
+            
+        </form>
+    </div>
+</div>
+    
+    
+    
+    <script src="script1.js"></script>
+
+
+</body>
+</html>

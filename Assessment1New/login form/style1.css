@@ -1,0 +1,35 @@
+* {
+    margin:0 auto;
+    padding: 0;
+    font-size: 3vmin;
+    font-weight: 0.2Vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table,tr,td {
+    
+    margin-top: 5vmax;
+    padding-right: 10vmin;
+    padding-bottom: 2vmin;
+}
+button {
+    margin-left: 50vmax;
+}
+i {
+    background: lightgrey;
+    padding: 1vmin;
+    min-width: 3vmax;
+    box-sizing: border-box;
+    text-align: center;
+}
+@media screen and (max-width: 800px)
+{
+    button {
+        margin-left: 25vmax;
+    }
+    i {
+        min-width:2vmin;
+    }
+    table {
+        margin-left: 5vmax;
+    }
+}
