@@ -1,0 +1,30 @@
+
+body {
+    background-color: lightskyblue;
+}
+.row {
+    margin:auto;
+    /* margin-bottom: 5px; */
+}
+.card {
+    background-image:linear-gradient(to right, #d8c6a1 , #101a19);
+    
+}
+.card-header {
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+.card-img-top {
+    text-align: center;
+    margin:auto;
+    display: block;
+    height: 120px;
+    width:200px;
+}
+.card-body{
+    text-align: center;
+    color: beige;
+    
+}
+
